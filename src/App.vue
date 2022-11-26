@@ -4,6 +4,7 @@ import TextCard from "./components/TextCard.vue"
 import CounterCard from "./components/CounterCard.vue";
 import RangeCard from "./components/RangeCard.vue";
 import SearchCard from "./components/SearchCard.vue";
+import TextHighlightCard from "./components/TextHighlightCard.vue";
 </script>
 
 <template>
@@ -17,6 +18,11 @@ import SearchCard from "./components/SearchCard.vue";
     <CounterCard color="#ebffda" title="Counter" :default-value="50"/>
     <RangeCard color="bisque" title="Range" :min="50" :max="150" :default-value="75"/>
     <SearchCard color="khaki" title="Search" :items="['bread', 'milk', 'burger', 'bike', '!@#$%^', 'mike']"/>
+    <TextHighlightCard color="#e0fff8" title="Highlight">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book.
+    </TextHighlightCard>
   </div>
 </template>
 
